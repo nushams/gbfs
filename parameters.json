@@ -1,0 +1,36 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "sites_la_umob_name": {
+            "value": "la-umob-demo"
+        },
+        "connections_documentdb_name": {
+            "value": "documentdb"
+        },
+        "components_la_umob_name": {
+            "value": "la-umob-demo"
+        },
+        "workspaces_loudrojects_name": {
+            "value": "loudrojectsdemo"
+        },
+        "serverfarms_ASP_rgumob_9281_name": {
+            "value": "ASP-rgumob-9281-demo"
+        },
+        "storageAccounts_lakeumob_name": {
+            "value": "lakeumobdemo"
+        },
+        "storageAccounts_rgumobb526_name": {
+            "value": "rgumobb526demo"
+        },
+        "databaseAccounts_cdb_umob_name": {
+            "value": "cdb-umob-demo"
+        },
+        "actionGroups_Application_Insights_Smart_Detection_name": {
+            "value": "Application Insights Smart Detection"
+        },
+        "workspaces_DefaultWorkspace_7e932fe6_b4ef_4dbe_a236_fb172ea4bd52_NEU_externalid": {
+            "value": "/subscriptions/7e932fe6-b4ef-4dbe-a236-fb172ea4bd52/resourceGroups/DefaultResourceGroup-NEU/providers/Microsoft.OperationalInsights/workspaces/DefaultWorkspace-7e932fe6-b4ef-4dbe-a236-fb172ea4bd52-NEU"
+        }
+    }
+}

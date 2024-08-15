@@ -1,0 +1,15 @@
+// Define groups and nodes
+User [icon: user]
+Logic Apps [icon: azure-logic-apps]
+Cosmos DB [icon: azure-cosmos-db]
+Synapse Analytics [icon: azure-synapse-analytics]
+Azure Monitor [icon: azure-monitor]
+
+// Define data flow and connections
+User > Logic Apps
+Logic Apps > Cosmos DB
+Cosmos DB > Synapse Analytics
+Synapse Analytics <-> User
+Logic Apps > Azure Monitor
+Cosmos DB > Azure Monitor
+Synapse Analytics > Azure Monitor
